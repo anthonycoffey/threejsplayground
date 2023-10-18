@@ -58,10 +58,9 @@ function WelcomeMsg(props: any) {
 
 export default function Hero() {
   return (
-    <Canvas>
+    <>
       <ambientLight intensity={1000} position={[0, 0, 0]} />
-      {/*<pointLight position={[0, 0, 0]} />*/}
       <WelcomeMsg position={[-2, 0, -10]} />
-    </Canvas>
+    </>
   );
 }
